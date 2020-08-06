@@ -9,10 +9,10 @@ module.exports = {
   title: 'Blue Sky Framework',
   tagline: 'A FiveM Framework',
   url: 'https://alzar.github.io/',
-  baseUrl: '/bluesky-docs/',
+  baseUrl: '/bluesky/',
   favicon: 'img/favicon.ico',
   organizationName: 'Alzar', // Usually your GitHub org/user name.
-  projectName: 'bluesky-docs', // Usually your repo name.
+  projectName: 'bluesky', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Blue Sky',
@@ -85,7 +85,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Alzar/bluesky-docs/edit/master/',
+            'https://github.com/Alzar/bluesky/edit/documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
